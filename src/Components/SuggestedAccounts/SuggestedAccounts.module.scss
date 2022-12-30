@@ -1,0 +1,54 @@
+// SuggesttedAccount
+
+.wrapper {
+    border-top: 2px solid #f0f0f1;
+    padding: 16px 0;
+}
+.label {
+    margin-bottom: 4px;
+}
+
+
+
+
+// AccountItems
+.account-item {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    height: 48px;
+
+    &:hover {
+        background-color:  #16182308;
+        cursor: pointer;
+    }
+}
+.account-img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+.account-info {
+    display: block;
+    line-height: 100%;
+
+}
+.account-name{
+    font-size: 1.6rem;
+}
+.account-nickname{
+    font-size: 1.2rem;
+    color: #a9aaae;
+}
+.checked{
+    font-size: 1.4rem;
+    margin-left: 4px;
+    color: #20d5ec;
+}
+.more-suggested {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--primary);
+    cursor: pointer;
+}

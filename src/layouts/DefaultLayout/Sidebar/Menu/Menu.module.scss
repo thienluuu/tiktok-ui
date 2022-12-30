@@ -1,0 +1,38 @@
+// Menu
+
+
+
+
+
+
+// Menu Item
+.menu-item {
+    display: flex;
+    font-size: 1.8rem;
+    font-weight:700;
+    align-items: center;
+    padding: 8px;
+    color: var(--text-color);
+
+    &.active{
+        color: var(--primary); 
+        
+        .icon {
+            display: none;
+        }
+        .active-icon {
+            display: block;
+        }
+    }
+
+    &:hover{
+        background-color: #16182308;
+    }
+    
+}
+.active-icon {
+    display: none;
+}
+.title {
+    margin-left: 16px;
+}
